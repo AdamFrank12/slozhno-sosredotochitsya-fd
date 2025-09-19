@@ -138,7 +138,7 @@
   font-weight: var(--font_weight_normal);
   display: grid;
   gap: 50px;
-  padding: 40px 10px;
+  padding: 30px 10px;
   line-height: 23.4px;
 }
 
@@ -282,7 +282,7 @@
   }
 
   .cards {
-    padding: 60px 20px;
+    padding: 50px 20px;
     gap: 80px;
   }
 
@@ -370,8 +370,16 @@
     transform: translateX(-50%);
   }
 
+  .header {
+    padding-top: 0;
+    min-block-size: 0px;
+  }
   .header_text {
-    margin-block-start: 58px;
+    margin-top: 65px;
+  }
+
+  .header_title {
+    padding-block-start: 70px;
   }
 
   .header_text_decoration {
